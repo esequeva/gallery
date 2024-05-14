@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Array con los nombres de las imágenes
     const imageNames = [];
     for (let i = 1; i <= 40; i++) {
-      imageNames.push(`img/ropa_ ${i}.jpg`); // Cambiar por los nombres de tus imágenes
+      imageNames.push(`img/ropa_${i}.jpg`); // Cambiar por los nombres de tus imágenes
     }
     
     // Crear miniaturas y agregar clics
