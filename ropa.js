@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
       img.src = imageName;
       img.addEventListener('click', function() {
         modal.style.display = 'block';
-        modalImg.src = this.src;
+        imgModal.src = this.src;
       });
       gallery.appendChild(img);
     });
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
 
-    modalImg.addEventListener('click', function(event) {
+    imgModal.addEventListener('click', function(event) {
       event.stopPropagation();
     });
   });
