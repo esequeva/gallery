@@ -31,5 +31,9 @@ document.addEventListener('DOMContentLoaded', function() {
         modal.style.display = 'none';
       }
     });
+
+    modalImg.addEventListener('click', function(event) {
+      event.stopPropagation();
+    });
   });
   
